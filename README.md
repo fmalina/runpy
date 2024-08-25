@@ -5,9 +5,10 @@ https://www.loom.com/share/9d5d89b8b22b414ab68f1981f0fb07de
 ## Installation
 With Python and pip installed, clone this repo and cd into it, then install libraries:
 
-   git clone https://github.com/fmalina/runpy.git
-   cd runpy
-   pip install -r requirements.txt  # feel free to safely add --break-system-packages on Ubuntu
+    git clone https://github.com/fmalina/runpy.git
+    cd runpy
+    # feel free to safely add --break-system-packages on Ubuntu
+    pip install -r requirements.txt
 
 Make sure you have Docker installed and running under current user
 allowing Python to control it (on *nix systems):
