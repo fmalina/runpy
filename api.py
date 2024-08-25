@@ -28,7 +28,7 @@ async def execute_task(task: Task):
     # Create Docker container with specified resources
     try:
         container = docker_client.containers.run(
-            "python:3.9-slim",
+            "python:3.12-slim",
             f"python -c \"{task.code}\"",
             detach=True,
             mem_limit=task.resources.ram,
